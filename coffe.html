@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JERRY_COFFEE</title>
+    <link rel="icon" href="./images/coffee-cup.png">
+
+    <style>
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform:capitalize;
+
+    }
+    .hero{
+        height: 100%;
+        width: 100%;
+        margin:0px;
+        padding: 10px;
+        background: url(./images/cfebg11.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+        .nav ul{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 100px;
+        background: radial-gradient(gray,white);
+        border-radius: 20px;
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .nav li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 20px;
+   
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+.nav a:hover{
+    color: wheat;
+    transition: 1s;
+}
+.nav img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+span{
+    color:red;
+}
+.coffeetype{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    /* border: 2px solid white; */
+}
+.coffeetype .type{
+    /* border: 2px solid white; */
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+.type .typeimg{
+    display: flex;
+}
+.type .typeimg h3,h4{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.type .typeimg h4{
+    color: red;
+}
+.type .typepara{
+    margin-top: 10px;
+}
+
+.coffeetype img{
+    height: 50px;
+    width: 50px;
+}
+
+.coffeitems{
+
+    margin-top: 20px;
+}
+
+.coffeeitems h1{
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.coffeevarieties{
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.coffeevarieties img{
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.coffeevarieties figcaption{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="hero">
+
+
+        <div class="nav">
+            <ul>
+                <li><img src="./images/cfelogo.png" alt="company_loogo"></li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="coffe.html">coffee</a></li>
+                <li><a href="equipment.html">equipments</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contact.html">get in touch</a></li>
+            </ul>
+        </div>
+
+        <div class="coffeetype">
+            <div class="type">
+                <div class="typeimg">
+                    <img src="./images/icon1.png" alt="icon1">
+                    <h3>speciaty coffee</h3>
+                    <h4>espresso coffe</h4>
+                </div>
+                <div class="typepara">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                
+            </div>
+            <div class="type">
+                
+                <div class="typeimg">
+                    <img src="./images/icon2.png" alt="icon2">
+                    <h3>speciaty coffee</h3>
+                    <h4>espresso coffe</h4>
+                </div>
+                <div class="typepara">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+
+                </div>
+                
+                
+            </div>
+            <div class="type">
+                <div class="typeimg">
+                    <img src="./images/icon3.png" alt="icon3">
+                    <h3>speciaty coffee</h3>
+                    <h4>espresso coffe</h4>
+
+                </div>
+                <div class="typepara">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+
+                </div>
+                
+                
+            </div>
+        </div>
+
+
+        <div class="coffeeitems">
+            <h1>our products <span> :)</span></h1>
+            <hr>
+            <hr>
+            <div class="coffeevarieties">
+                <figure>
+                    <img src="./images/cfe2.jpg" alt="img1">
+                    <figcaption>choci coffee</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/cf3.jpg" alt="img2">
+                    <figcaption>cream coffee</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/cfe4.jpg" alt="img3">
+                    <figcaption>cold coffee</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/cfe5.jpg" alt="img4">
+                    <figcaption>coco coffee</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/cfe7.jpg" alt="img5">
+                    <figcaption>ice coffee</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/cfe8.jpg" alt="img6">
+                    <figcaption>coffe with nature</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/cfebg2.jpg" alt="img7">
+                    <figcaption>degree coffee</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/cfe9.jpg" alt="img8">
+                    <figcaption>filter coffee</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

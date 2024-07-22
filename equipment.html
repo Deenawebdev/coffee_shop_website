@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JERRY_COFFEE</title>
+    <link rel="icon" href="./images/coffee-cup.png">
+
+    <style>
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform:capitalize;
+
+    }
+    .hero{
+        height: 100%;
+        width: 100%;
+        margin:0px;
+        padding: 10px;
+        background: url(./images/cfebg5.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav ul{
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 100px;
+        background: radial-gradient(gray,white);
+        border-radius: 20px;
+        height: 100px;
+        width: 100%;
+    }
+    .nav li{
+        list-style-type: none;
+        margin-left: 50px;
+        margin-right: 20px;
+   
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        display: block;
+    }
+    .nav a:hover{
+        color: wheat;
+        transition: 1s;
+    }
+    .nav img{
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+
+
+    /* content */
+
+    .content{
+        margin-top: 50px;
+        padding: 20px;
+    }
+ 
+    .content h1{
+        color: whitesmoke;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: bold;
+  
+    }
+
+    .content ul{
+        text-align: center;
+        /* list-style-type: none; */
+    }
+
+
+    .content h2{
+        color: red;
+        padding: 10px;
+    }
+    .content li{
+        color: wheat;
+        font-weight: bold;
+        list-style-position: inside;
+        margin-top: 10px;
+    }
+
+    .content li::marker{
+        content:"💙";
+    }
+
+</style>
+</head>
+<body>
+    
+
+    <div class="hero">
+        <div class="nav">
+            <ul>
+                <li><img src="./images/cfelogo.png" alt="company_loogo"></li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="coffe.html">coffee</a></li>
+                <li><a href="equipment.html">equipments</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contact.html">get in touch</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Coffee Equipment</h1>
+            <div class="point">
+                
+                <ul>
+                    <h2> Coffee Maker Types:</h2>
+                    <li>Drip Coffee Maker: Automated brewing for multiple cups.</li>
+                    <li>Espresso Machine:Brews espresso using high pressure.</li>
+                    <li>French Press: Steeps coffee grounds in hot water, then presses them.</li>
+                    <li>Pour Over: Manual method using a cone-shaped filter holder.</li>
+                    <li>Aeropress: Uses air pressure to brew coffee.</li>
+                    <li>Cold Brew Maker: Steeps coffee grounds in cold water for an extended period</li>
+                </ul>
+               <ul>
+                <h2>Grinders:</h2>
+                <li>Blade Grinder: Affordable, but less consistent grind size.</li>
+                <li>Burr Grinder: Provides a uniform grind size; better for quality brewing.</li>
+               </ul>
+
+               <ul>
+                <h2>Kettles:</h2>
+                <li>Electric Kettle:Heats water quickly and efficiently.</li>
+                <li>Gooseneck Kettle: Provides precise control for pour-over methods</li>
+            
+               </ul>
+               <ul>
+                <h2>Scales:</h2>
+                <li>Digital Coffee Scale: Measures coffee grounds and water accurately for consistent brewing.</li>
+               </ul>
+
+               <ul>
+                <h2>Filters:</h2>
+                <li>Paper Filters: Single-use, disposable filters for drip coffee and pour-over.</li>
+                <li>Metal Filters: Reusable filters that allow more oils and finer grounds into the brew.</li>
+               </ul>
+
+
+               <ul>
+                <h2>Other Accessories:</h2>
+                <li>Milk Frother: Creates frothed milk for lattes and cappuccinos.</li>
+                <li>Coffee Scoop: Ensures consistent measurements of coffee grounds.</li>
+                <li>Coffee Canister: Airtight storage to keep coffee beans fresh.</li>
+                <li>Tamper:Compresses coffee grounds in the portafilter of an espresso machine.</li>
+               </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

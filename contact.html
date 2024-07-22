@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JERRY_COFFEE</title>
+    <link rel="icon" href="./images/coffee-cup.png">
+
+    <style>
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform:capitalize;
+        background: url(./images/cfebg10.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+    .hero{
+        height: 100%;
+        width: 100%;
+        margin:0px;
+        padding: 10px;
+        
+    }
+        
+    .nav ul{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 100px;
+        background: radial-gradient(gray,white);
+        border-radius: 20px;
+        height: 100px;
+        width: 100%;
+    }
+    .nav li{
+        list-style-type: none;
+        margin-left: 50px;
+        margin-right: 20px;
+   
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        display: block;
+    }
+    .nav a:hover{
+        color: wheat;
+        transition: 1s;
+    }
+    .nav img{
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+
+    .review h1{
+        text-align: center;
+        color: red;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    .review h2{
+        text-align: center;
+        color: whitesmoke;
+    }
+
+
+    .reviewpara{
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .reviewpara .para1,.para2,.para3{
+        font-weight: bold;
+        margin: 20px;
+        border: 5px solid gray;
+        border-radius: 8px;
+        padding: 10px;
+        backdrop-filter:blur(10px);
+      
+
+    }
+
+
+    .reviewpara a{
+        text-align: center;
+        margin-left: 100px;
+        margin-top: 15px;
+        padding-top: 15px;
+        font-size: 20px;
+        text-decoration: none;
+        color:red;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .reviewpara a:hover{
+        color:aqua;
+    }
+    
+
+    .cont{
+
+        display: flex;
+        border-top: 5px solid black;
+        justify-content: center;
+    }
+
+    .contact_me{
+        display: flex;
+        flex-direction: column;
+        padding: 80px;
+        font-size: 16px;
+        
+    }
+    .contact_me h1{
+        color: white;
+    }
+    .contact_me h3{
+        color: black;
+    }
+    .contact_me button{
+        color: blue;
+        background: aliceblue;
+        height: 25px;
+    }
+    .sitemap{   
+        padding: 80px;
+    
+    }
+    .sitemap h1,li{
+        color: whitesmoke;
+        font-weight: bold;
+        
+    }
+    .sitemap li{
+        padding: 5px;
+        list-style-position: inside;
+    }
+    .sitemap li::marker{
+        content: "😻";
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        
+    }
+
+
+    .logo .imglogo{
+        background: url(./images/itz_mii.jpg);
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+    .logo a{ 
+        text-decoration: none;
+        color: aqua;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    footer{
+        background-color: whitesmoke;
+        color: blc;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: -20px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 25px;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav">
+            <ul>
+                <li><img src="./images/cfelogo.png" alt="company_loogo"></li>
+                <li><a href="index.html">home</a></li>
+                <li><a href="coffe.html">coffee</a></li>
+                <li><a href="equipment.html">equipments</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contact.html">get in touch</a></li>
+            </ul>
+        </div>
+
+        <div class="review">
+
+            <h1>reviews</h1>
+            <h2>what other people are saying !</h2>
+
+            <div class="reviewpara">
+                <div class="para1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  Nam a ex qui, deleniti minima rem voluptatem <br> dolor ullam asperiores officia non ab optio neque <br> nemo maxime dignissimos repellat quas quos.</p>
+                    <a href="#">@deena_ofcl</a>
+                </div>
+                <div class="para2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  Nam a ex qui, deleniti minima rem voluptatem <br> dolor ullam asperiores officia non ab optio neque <br> nemo maxime dignissimos repellat quas quos.</p>
+                    <a href="#">@darlu_ofcl</a>
+                </div>
+                <div class="para3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>  Nam a ex qui, deleniti minima rem voluptatem <br> dolor ullam asperiores officia non ab optio neque <br> nemo maxime dignissimos repellat quas quos.</p>
+                    <a href="#">@jerry_ofcl</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="cont">
+            <div class="contact_me">
+
+                <h1>contact_us</h1>
+                <h3>send us a message</h3>
+                <br>
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="your mail">
+                <textarea name="comment" id="comment" rows="4">YOUR MESSAGE</textarea>
+                <button type="button">submit</button>
+            </div>
+    
+    
+            <div class="sitemap">
+                <h1>sitemap</h1>
+                <h3>all our pages</h3>
+                <ul>
+                    <li>home</li>
+                    <li>about_us</li>
+                    <li>features</li>
+                    <li>pricing</li>
+                    <li>contacts_us</li>
+                </ul>
+            </div>
+    
+            <div class="logo">
+    
+                <div class="imglogo"></div>
+                <a href="#">💙7904464197</a>
+                <a href="#">💙deenawebdeveloper@gmail.com</a>
+                
+            </div>
+        </div>
+        
+
+        <div class="footer">
+            <footer>&copy  2326 allrights reserverd by deenahems_ofcl</footer>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:capitalize;
+
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    margin:0px;
+    padding: 10px;
+    background: url(../images/cfebg4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 100px;
+    background: radial-gradient(gray,white);
+    border-radius: 20px;
+    height: 100px;
+    width: 100%;
+}
+.nav li{
+    list-style-type: none;
+    margin-left: 50px;
+    margin-right: 20px;
+   
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+.nav a:hover{
+    color: wheat;
+    transition: 1s;
+}
+.nav img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.content h1{
+    color:crimson;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 34px;
+}
+.content h2{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.content h3{
+    color: white;
+    text-shadow: 2px 2px red;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.content p{
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+.content button{
+    all: unset;
+    margin-left: 200px;
+    margin-top: 50px;
+    color: wheat;
+    font-size: 30px;
+    font-weight: bold;
+}
